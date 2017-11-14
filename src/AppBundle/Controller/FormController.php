@@ -10,7 +10,7 @@ class FormController extends Controller
      */
     public function showAction($foo)
     {
-        return $this->render('custom/form.html.twig', array(
+        return $this->render('custom/show.html.twig', array(
             'variable01' => $foo
         ));
     }
